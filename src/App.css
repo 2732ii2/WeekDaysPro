@@ -44,6 +44,7 @@
   box-shadow: -1px 0px 10px 0px rgba(0,0,0,.3);
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
   padding-left: 10px;
   padding-top: 10px;
   /* width: 30%;
@@ -52,10 +53,99 @@
   margin-left: auto; */
 }
 .smallSlit{
-  width: 70%;
+  width: 50%;
   height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 20px;
   border: 1px solid rgb(12, 12, 12,.3);
+}
+.mainslit_{
+  width: 98%;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: auto;
+  display: flex;
+  padding-left: 10px;
+  height: 100px;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.estimation{
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: rgba(17, 16, 16, 0.9);
+  font-weight: 500;
+  padding-left: 10px;
+}
+.aboutComp{
+  font-size: 20px;
+  font-weight: 450;
+  padding-left: 10px;
+  margin-top: 20px;
+  color: rgb(6, 5, 5);
+}
+.aboutUs{
+  font-weight: 650;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+.desc{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  font-weight: 350;
+  position: relative;
+  display: flex;
+}
+.view{
+  position: absolute;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.9));
+  width: 95%;
+  height: 70px;
+  color: blue;
+  display: flex;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  justify-content: center;
+  align-items: end;
+  top: auto;
+  bottom: 1px;
+}
+.posted{
+  font-size: 16px;
+  margin-left: 10px;
+  color: rgb(19, 18, 18,.5);
+}
+
+.insideslit{
+  margin-left: 10px;
+}
+.companyName{
+  color: rgb(67, 65, 65,.5);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.jobRole{
+  color: rgb(43, 41, 41,.9);
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-top: 10px;
+
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, ;
+  font-size: 19px;
+}
+.location{
+  color: rgb(17, 16, 16);
+  margin-top: 5px;
+
+  text-transform: capitalize;
+
 }
 @media (max-width:1280px) {
   .Maincomp{
