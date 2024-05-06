@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Deployed Link  or Live Website : <a href="weekdayproject.netlify.app">weekdayproject.netlify.app<a/>
+<h5> Deployed Link  or Live Website : weekdayproject.netlify.app  </h5>
 ## Available Scripts
 
 In the project directory, you can run:
